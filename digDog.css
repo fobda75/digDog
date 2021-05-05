@@ -1,0 +1,62 @@
+h1{
+    margin:auto;
+    font-size: xxx-large;
+}
+
+body{
+    text-align: center;
+    alignment: center;
+    background-color: #65c3a8;
+}
+.key {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid rgba(32, 32, 32, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px rgba(32, 32, 32, 0.2);
+}
+
+.container {
+    width: 660px;
+    background-color: rgba(240, 240, 255, 0.8);
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.boneContainer {
+    text-align: center;
+    alignment: center;
+    font-size: large;
+    margin: auto;
+    width: 33%;
+    background-color: rgba(22, 22, 159, 0.8);
+    color: #d68976;
+    border-radius: 20px;
+}
+
+.dangerContainer {
+    margin: auto;
+    width: 33%;
+    font-size: x-large;
+    background-color: darkslategrey;
+    border-radius: 20px;
+}
+
+#redBox{
+    background-color: red;
+    width:0px;
+    height:40px;
+    visibility: visible;
+    display: inline-block;
+    margin-left: 0px;
+}
+#greenBox{
+    background-color: green;
+    width:200px;
+    height:40px;
+    visibility: visible;
+    display: inline-block;
+    margin-right: 0px;
+}
